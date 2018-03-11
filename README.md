@@ -1,5 +1,5 @@
 #react-express-server
-This project uses express server to return json object from an api. This api is called from React layer and publishes the data in react-bootstrap table. Sorting occurs on button click based on value returned for each object in json. By default, sorting is done based on ascending order.
+This project uses express server to return json object from an API. This API is called from the React layer and publishes the data in react-bootstrap table. Sorting is done based on value attribute in the json object. By default, sorting is done based on ascending order.
 
 ##Instructions
 
@@ -12,8 +12,8 @@ To run test cases, use ``npm test``
 
 ##Application-features
 
-1. Json object is returned from an API
-2. API is built using express server
+1. API is built using express server
+2. Json object is returned from the API
 3. Communication between REACT and express server
-4. Sorting on button click based on value returned by each json object
+4. Sorting on button click based on value attribute in json object
 5. By default, sorting is done based on ascending order when react component is mounted
