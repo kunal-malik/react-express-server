@@ -73,7 +73,8 @@ class List extends Component {
       striped
       bordered
       condensed
-      hover>
+      hover
+      responsive>
       <thead>
         <tr>
           <th>
