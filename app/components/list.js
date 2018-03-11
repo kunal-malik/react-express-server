@@ -20,7 +20,7 @@ class List extends Component {
   }
 
   getFitMachinesList () {
-    return axios.get('/api/hello')
+    return axios.get('/api/fitmachines/v1/list')
     .then(response => response.data)
     .catch(error =>  {
       throw Error('error while executing getFitMachinesList',error)

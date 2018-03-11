@@ -10,7 +10,7 @@ app.use(function(req, res, next) {
   next();
 });
 
-app.get('/api/hello', (req, res) => {
+app.get('/api/fitmachines/v1/list', (req, res) => {
   res.send(JSON.stringify(data));
 });
 
